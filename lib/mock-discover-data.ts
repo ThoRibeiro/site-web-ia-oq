@@ -1,0 +1,238 @@
+// Mock data for the Discover page
+
+export const mockArticles = [
+  {
+    id: "1",
+    title: "Bitcoin atteint un nouveau sommet historique à 69 000 $",
+    excerpt:
+      "Le Bitcoin a atteint un nouveau sommet historique, dépassant les 69 000 $ pour la première fois de son histoire, porté par l'adoption institutionnelle croissante.",
+    content: "Contenu complet de l'article...",
+    author: "Jean Dupont",
+    date: "2024-05-22T10:30:00Z",
+    category: "Marché",
+    image: "/placeholder.svg?height=400&width=800",
+    tags: ["Bitcoin", "ATH", "Marché", "Investissement"],
+  },
+  {
+    id: "2",
+    title: "Ethereum finalise sa mise à jour majeure 'Cancun-Deneb'",
+    excerpt:
+      "La mise à jour tant attendue d'Ethereum, 'Cancun-Deneb', a été déployée avec succès, apportant des améliorations significatives en termes d'évolutivité et d'efficacité.",
+    content: "Contenu complet de l'article...",
+    author: "Marie Martin",
+    date: "2024-05-21T14:15:00Z",
+    category: "Technologie",
+    image: "/placeholder.svg?height=400&width=800",
+    tags: ["Ethereum", "Mise à jour", "Technologie", "Cancun-Deneb"],
+  },
+  {
+    id: "3",
+    title: "La SEC approuve enfin les ETF Ethereum spot",
+    excerpt:
+      "La Securities and Exchange Commission (SEC) des États-Unis a approuvé les premiers ETF Ethereum spot, ouvrant la voie à une adoption plus large de la deuxième plus grande cryptomonnaie.",
+    content: "Contenu complet de l'article...",
+    author: "Pierre Lefebvre",
+    date: "2024-05-20T09:45:00Z",
+    category: "Régulation",
+    image: "/placeholder.svg?height=400&width=800",
+    tags: ["Ethereum", "ETF", "SEC", "Régulation"],
+  },
+  {
+    id: "4",
+    title: "Solana dépasse Binance Coin en capitalisation boursière",
+    excerpt:
+      "Solana (SOL) a dépassé Binance Coin (BNB) en termes de capitalisation boursière, devenant ainsi la quatrième plus grande cryptomonnaie du marché.",
+    content: "Contenu complet de l'article...",
+    author: "Sophie Dubois",
+    date: "2024-05-19T16:20:00Z",
+    category: "Marché",
+    image: "/placeholder.svg?height=400&width=800",
+    tags: ["Solana", "BNB", "Capitalisation", "Marché"],
+  },
+  {
+    id: "5",
+    title: "La France adopte un cadre réglementaire favorable aux cryptomonnaies",
+    excerpt:
+      "Le gouvernement français a adopté un nouveau cadre réglementaire visant à favoriser l'innovation dans le secteur des cryptomonnaies tout en assurant la protection des investisseurs.",
+    content: "Contenu complet de l'article...",
+    author: "Thomas Bernard",
+    date: "2024-05-18T11:05:00Z",
+    category: "Régulation",
+    image: "/placeholder.svg?height=400&width=800",
+    tags: ["France", "Régulation", "Innovation", "Législation"],
+  },
+  {
+    id: "6",
+    title: "Les NFT font leur retour sur le devant de la scène",
+    excerpt:
+      "Après une période de désintérêt, les NFT connaissent un regain d'attention grâce à de nouvelles utilisations pratiques et l'intégration dans des plateformes grand public.",
+    content: "Contenu complet de l'article...",
+    author: "Camille Roux",
+    date: "2024-05-17T13:40:00Z",
+    category: "NFT",
+    image: "/placeholder.svg?height=400&width=800",
+    tags: ["NFT", "Art", "Collectibles", "Web3"],
+  },
+]
+
+export const mockTutorials = [
+  {
+    id: "1",
+    title: "Comment créer votre premier portefeuille crypto",
+    description:
+      "Un guide étape par étape pour créer et sécuriser votre premier portefeuille de cryptomonnaies, idéal pour les débutants.",
+    content: "Contenu complet du tutoriel...",
+    author: "Alexandre Martin",
+    level: "Débutant",
+    duration: 15,
+    date: "2024-05-20T10:30:00Z",
+    image: "/placeholder.svg?height=400&width=800",
+    rating: 4.8,
+    tags: ["Portefeuille", "Sécurité", "Débutant", "Bitcoin"],
+  },
+  {
+    id: "2",
+    title: "Les bases du staking : comment générer des revenus passifs",
+    description:
+      "Découvrez comment mettre vos cryptomonnaies au travail grâce au staking et générer des revenus passifs tout en soutenant les réseaux blockchain.",
+    content: "Contenu complet du tutoriel...",
+    author: "Julie Moreau",
+    level: "Intermédiaire",
+    duration: 25,
+    date: "2024-05-18T14:15:00Z",
+    image: "/placeholder.svg?height=400&width=800",
+    rating: 4.6,
+    tags: ["Staking", "Revenus passifs", "DeFi", "Ethereum"],
+  },
+  {
+    id: "3",
+    title: "Comprendre les smart contracts sur Ethereum",
+    description:
+      "Une explication détaillée du fonctionnement des contrats intelligents sur Ethereum, avec des exemples pratiques et des cas d'utilisation.",
+    content: "Contenu complet du tutoriel...",
+    author: "Nicolas Blanc",
+    level: "Avancé",
+    duration: 40,
+    date: "2024-05-15T09:45:00Z",
+    image: "/placeholder.svg?height=400&width=800",
+    rating: 4.9,
+    tags: ["Smart Contracts", "Ethereum", "Solidity", "Développement"],
+  },
+  {
+    id: "4",
+    title: "Analyse technique pour les traders de cryptomonnaies",
+    description:
+      "Apprenez les bases de l'analyse technique pour prendre de meilleures décisions de trading sur les marchés des cryptomonnaies.",
+    content: "Contenu complet du tutoriel...",
+    author: "Éric Durand",
+    level: "Intermédiaire",
+    duration: 35,
+    date: "2024-05-12T16:20:00Z",
+    image: "/placeholder.svg?height=400&width=800",
+    rating: 4.7,
+    tags: ["Trading", "Analyse technique", "Graphiques", "Indicateurs"],
+  },
+  {
+    id: "5",
+    title: "Comment participer aux IDO (Initial DEX Offerings)",
+    description:
+      "Guide complet pour participer aux offres initiales sur les échanges décentralisés et découvrir de nouveaux projets crypto à un stade précoce.",
+    content: "Contenu complet du tutoriel...",
+    author: "Sarah Petit",
+    level: "Avancé",
+    duration: 30,
+    date: "2024-05-10T11:05:00Z",
+    image: "/placeholder.svg?height=400&width=800",
+    rating: 4.5,
+    tags: ["IDO", "DeFi", "Investissement", "Launchpad"],
+  },
+  {
+    id: "6",
+    title: "Sécuriser vos cryptomonnaies avec une clé matérielle",
+    description:
+      "Découvrez comment protéger vos actifs numériques contre les pirates informatiques en utilisant des portefeuilles matériels comme Ledger ou Trezor.",
+    content: "Contenu complet du tutoriel...",
+    author: "Paul Leroy",
+    level: "Débutant",
+    duration: 20,
+    date: "2024-05-08T13:40:00Z",
+    image: "/placeholder.svg?height=400&width=800",
+    rating: 4.9,
+    tags: ["Sécurité", "Hardware Wallet", "Ledger", "Trezor"],
+  },
+]
+
+export const mockAnalyses = [
+  {
+    id: "1",
+    title: "Bitcoin : perspectives haussières pour le second semestre 2024",
+    excerpt:
+      "Analyse approfondie des facteurs qui pourraient propulser Bitcoin vers de nouveaux sommets au cours du second semestre 2024.",
+    content: "Contenu complet de l'analyse...",
+    author: "Michel Dupont",
+    date: "2024-05-21T10:30:00Z",
+    sentiment: "bullish",
+    image: "/placeholder.svg?height=400&width=800",
+    tags: ["Bitcoin", "Analyse", "Prévisions", "Halving"],
+  },
+  {
+    id: "2",
+    title: "L'écosystème Ethereum après Cancun-Deneb : gagnants et perdants",
+    excerpt:
+      "Quels projets et protocoles de l'écosystème Ethereum sont les mieux positionnés pour bénéficier de la mise à jour Cancun-Deneb ?",
+    content: "Contenu complet de l'analyse...",
+    author: "Claire Martin",
+    date: "2024-05-19T14:15:00Z",
+    sentiment: "bullish",
+    image: "/placeholder.svg?height=400&width=800",
+    tags: ["Ethereum", "Écosystème", "DeFi", "Layer 2"],
+  },
+  {
+    id: "3",
+    title: "Risques réglementaires pour les stablecoins en 2024",
+    excerpt:
+      "Analyse des risques réglementaires croissants pour les stablecoins et leur impact potentiel sur le marché des cryptomonnaies.",
+    content: "Contenu complet de l'analyse...",
+    author: "Antoine Lefebvre",
+    date: "2024-05-17T09:45:00Z",
+    sentiment: "bearish",
+    image: "/placeholder.svg?height=400&width=800",
+    tags: ["Stablecoins", "Régulation", "USDT", "USDC"],
+  },
+  {
+    id: "4",
+    title: "Solana vs Ethereum : bataille pour la suprématie des smart contracts",
+    excerpt:
+      "Comparaison approfondie des performances, de l'adoption et des perspectives d'avenir de Solana et Ethereum dans la course aux smart contracts.",
+    content: "Contenu complet de l'analyse...",
+    author: "Julien Dubois",
+    date: "2024-05-15T16:20:00Z",
+    sentiment: "bullish",
+    image: "/placeholder.svg?height=400&width=800",
+    tags: ["Solana", "Ethereum", "Smart Contracts", "Scalabilité"],
+  },
+  {
+    id: "5",
+    title: "L'impact de la politique monétaire sur le marché crypto",
+    excerpt:
+      "Comment les décisions des banques centrales et les politiques monétaires influencent les prix des cryptomonnaies à court et moyen terme.",
+    content: "Contenu complet de l'analyse...",
+    author: "Sophie Bernard",
+    date: "2024-05-13T11:05:00Z",
+    sentiment: "bearish",
+    image: "/placeholder.svg?height=400&width=800",
+    tags: ["Macroéconomie", "Inflation", "Taux d'intérêt", "Corrélation"],
+  },
+  {
+    id: "6",
+    title: "Les altcoins à surveiller pour le prochain cycle haussier",
+    excerpt:
+      "Analyse des altcoins prometteurs qui pourraient surperformer le marché lors du prochain cycle haussier des cryptomonnaies.",
+    content: "Contenu complet de l'analyse...",
+    author: "Marc Roux",
+    date: "2024-05-10T13:40:00Z",
+    sentiment: "bullish",
+    image: "/placeholder.svg?height=400&width=800",
+    tags: ["Altcoins", "Investissement", "Cycle haussier", "Diversification"],
+  },
+]
